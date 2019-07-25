@@ -19,7 +19,7 @@ body{
     text-emphasis:bold;
 }
 .first{
-	background-image: url(pics/h_img.jpg);
+	background-image: url("pics/h_img.jpg");
 	background-repeat:  no-repeat;
     
 }
@@ -42,7 +42,8 @@ body{
 }
 .third{
     height: 300px;
-    background: url(pics/s_image.jpg) no-repeat;
+	background: url(pics/s_image.jpg);
+	background-repeat: no-repeat;
 }
 .third-text{
     text-align: center;
