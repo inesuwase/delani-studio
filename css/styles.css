@@ -4,7 +4,8 @@
     width: inherit;
 }
 body{
-	margin: 0;
+	margin-right: 80px;
+  margin-left: 80px;
 	padding: 0;
 	height: auto;
 	background: black;
@@ -57,4 +58,8 @@ body{
 .fourth{
     background: whitesmoke;
     height:auto;
+}
+.col-md-4{
+    background-image: url("file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/design_icon.png");
+    background-repeat: no-repeat;
 }
