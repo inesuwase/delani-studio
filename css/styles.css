@@ -7,8 +7,8 @@ body{
 	margin: 0;
 	padding: 0;
 	height: auto;
-    background: black;
-}
+	background: black;
+    }
 .first-text{
 	background: transparent;
 	font-weight: bold;
@@ -19,9 +19,8 @@ body{
     text-emphasis:bold;
 }
 .first{
-	background-image: url("pics/h_img.jpg");
-	background-repeat:  no-repeat;
-    
+    background-image: url("file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/h_img.jpg");
+    background-repeat: no-repeat; 
 }
 .logo{
     margin-left: auto;
@@ -42,7 +41,7 @@ body{
 }
 .third{
     height: 300px;
-	background: url(pics/s_image.jpg);
+	background: url("file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/s_image.jpg");
 	background-repeat: no-repeat;
 }
 .third-text{
