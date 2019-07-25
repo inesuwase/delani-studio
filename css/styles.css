@@ -19,7 +19,8 @@ body{
     text-emphasis:bold;
 }
 .first{
-    background: url(assets/h_img.jpg) no-repeat;
+	background-image: url(pics/h_img.jpg);
+	background-repeat:  no-repeat;
     
 }
 .logo{
