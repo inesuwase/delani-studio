@@ -38,10 +38,8 @@ body{
     background: transparent;
     font-size-adjust: auto; 
     text-align: center; 
-}
-.second text>p>h1{
-    text-align: center;
-     font-size: 13px;
+    margin-right: 150px;
+    margin-left: 80px;
 }
 .third{
     height: 300px;
@@ -64,4 +62,8 @@ body{
 }
 .row{
     display: flex;
+}
+.sixth{
+    background-image: url("file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/c_image.jpg");
+    background-repeat: no repeat;
 }
