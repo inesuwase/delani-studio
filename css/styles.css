@@ -71,7 +71,16 @@ input[type=submit] {
 .row{
     display: flex;
 }
+.fifth{
+    text-align: center;
+}
 .sixth{
     background-image: url("file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/c_image.jpg");
     background-repeat: no-repeat;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.seventh{
+    text-align: center;
 }
