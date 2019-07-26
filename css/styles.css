@@ -35,6 +35,12 @@ body{
     text-align: center;
     margin-left: 15%;
 }
+input[type=submit] {
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
 .second text{
     color: black;
     background: transparent;
