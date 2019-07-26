@@ -62,7 +62,7 @@ input[type=submit] {
     margin-left: 100px;
 }
 .fourth-text{
-    text-align: center:
+    text-align: center;
     color: white;
     font-weight: 200;
 }
@@ -82,6 +82,12 @@ input[type=submit] {
     background-repeat: no-repeat;
     padding-top: 35px;
     padding-bottom: 40px;
+    text-align: center;
+}
+.input{
+    text-align: center;
+}
+.message{
     text-align: center;
 }
 .seventh{
