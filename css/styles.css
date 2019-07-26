@@ -39,6 +39,10 @@ body{
     font-size-adjust: auto; 
     text-align: center; 
 }
+.second text>p>h1{
+    text-align: center;
+     font-size: 13px;
+}
 .third{
     height: 300px;
 	background: url("file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/s_image.jpg");
