@@ -18,6 +18,7 @@ body{
     font-size: 60px;
     color: white;
     text-emphasis:bold;
+    text-align: center;
 }
 .first{
     background-image: url("file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/h_img.jpg");
@@ -58,15 +59,17 @@ input[type=submit] {
     text-align: center;
     background: transparent;
     color: white;
+    margin-left: 100px;
 }
 .fourth-text{
-    text-align: center;
+    text-align: center:
     color: white;
     font-weight: 200;
 }
 .fourth{
     background: whitesmoke;
     height:auto;
+    text-align: center;
 }
 .row{
     display: flex;
