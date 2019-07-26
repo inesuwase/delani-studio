@@ -6,11 +6,12 @@
 body{
   margin: 0;
 	padding: 0;
-	height: auto;
-	background: black;
+    height: auto;
+    background-color: whitesmoke;
     }
 .first-text{
-	background: transparent;
+    background: transparent;
+    background-size: 100% 100%;
 	font-weight: bold;
     text-align: center;
     font-size-adjust: auto;
@@ -32,12 +33,11 @@ body{
     background-color: whitesmoke;
     height: 300px;
 }
-.second-text{
+.second text{
     color: black;
-    text-align: center;
     background: transparent;
-    font-size-adjust: auto;  
-    
+    font-size-adjust: auto; 
+    text-align: center; 
 }
 .third{
     height: 300px;
