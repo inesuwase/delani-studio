@@ -32,6 +32,8 @@ body{
 .second{
     background-color: whitesmoke;
     height: 300px;
+    text-align: center;
+    margin-left: 15%;
 }
 .second text{
     color: black;
@@ -65,5 +67,5 @@ body{
 }
 .sixth{
     background-image: url("file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/c_image.jpg");
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
 }
