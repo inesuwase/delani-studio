@@ -9,10 +9,19 @@
     // $("#design").toggle();
     $("#design-text").toggle();
   });
-  $("#message").click(function(event){
-    var name=$("#inputName").val();
-    var email=$("#inputEmail").val();
-    var message=$("#inputMessage").val();
+  $("#product").click(function(){
+    $("#dev").toggle();
+    $("#product").toggle();
+  });
+$("#dev").click(function(){
+  $("#product").toggle();
+  // $("#design").toggle();
+  $("#dev").toggle();
+});
+  $("#submit").click(function(event){
+    var name=$("#name").val();
+    var email=$("#Email").val();
+    var message=$("#message").val();
     if((name==="")||(email==="")||(message==="")){
         alert("Please, fill the required fields!");
     }
