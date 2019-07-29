@@ -18,6 +18,15 @@ $("#dev").click(function(){
   // $("#design").toggle();
   $("#dev").toggle();
 });
+$("#man").click(function(){
+  $("#managment").toggle();
+  $("#man").toggle();
+});
+$("#managment").click(function(){
+$("#man").toggle();
+// $("#design").toggle();
+$("#managment").toggle();
+});
   $("#submit").click(function(event){
     var name=$("#name").val();
     var email=$("#Email").val();
