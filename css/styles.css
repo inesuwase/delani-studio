@@ -59,7 +59,7 @@ input[type=submit] {
 } */
 .third{
     height: 300px;
-	background: url("file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/s_image.jpg");
+	background: url("../pics/s_image.jpg");
 	background-repeat: no-repeat;
 }
 .third-text{
@@ -81,6 +81,8 @@ input[type=submit] {
 }
 .fifth{
     text-align: center;
+    /* margin-right: 200px;
+    margin-left: 150px; */
 }
 /* .work{
     text-align: center;
@@ -89,10 +91,9 @@ input[type=submit] {
     text-align: center;
 } */
 .sixth{
-    background-image: url("file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/c_image.jpg");
+    background-image: url("../pics/c_image.jpg");
     background-repeat: no-repeat;
-    /* padding-top: 35px;
-    padding-bottom: 40px; */
+    padding: 50px;
     text-align: center;
 }
 .seventh{
@@ -110,9 +111,65 @@ input[type=submit] {
 #dev{
     display: none;
 }
-#managment{
+.management{
     display: none;
 }
 button{
-    background-color: white;
+   color: white;
+}
+.website{
+    /* color:black; */
+    border: 5px solid white;
+    font-weight: 900;
+ }
+.p1{
+     margin-top: -100px;
+ }
+ .p2{
+    margin-top: -100px;
+}
+.p3{
+    margin-top: -100px;
+} 
+.p4{
+    margin-top: -100px;
+}
+.p5{
+    margin-top: -100px;
+}
+.p6{
+    margin-top: -100px;
+}
+.p7{
+    margin-top: -100px;
+}
+.p8{
+    margin-top: -100px;
+}
+#name{
+    width: 400px;
+    background: transparent;
+}
+#Email{
+    width: 400px;
+    background: transparent;
+}
+#message{
+    width: 400px;
+    height: 200px;
+    background: transparent;
+    /* padding-bottom: 200px; */
+    
+}
+::placeholder{
+    color: white;
+}
+h2{
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+#submit{
+    color: white;
+    background-color: black;
 }
