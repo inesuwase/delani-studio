@@ -71,7 +71,8 @@ input[type=submit] {
 .fourth-text{
     text-align: center;
     /* color: white; */
-    font-weight: 200;
+    /* font-weight: 200; */
+    margin-top: 20px;
 }
 .fourth{
     /* background: whitesmoke; */

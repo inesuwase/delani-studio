@@ -39,4 +39,12 @@ $("#managment").toggle();
     }
     event.preventDefault();
 });
+$(".p1").hide();
+   $(".pic1").hover(function(){
+       $(this).stop().animate({opacity:.2},200);
+       $(".p1").fadeIn();
+   },function(){
+       $(this).stop().animate({opacity:2},500);
+       $(".p1").fadeOut();
+   });
 });
