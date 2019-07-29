@@ -106,6 +106,9 @@ input[type=submit] {
 #design-text{
     display: none;
 }
+#dev{
+    display: none;
+}
 button{
     background-color: white;
 }
