@@ -108,9 +108,9 @@ input[type=submit] {
 #design-text{
     display: none;
 }
-#dev{
+/* #dev{
     display: none;
-}
+} */
 .management{
     display: none;
 }
@@ -124,6 +124,7 @@ button{
  }
 .p1{
      margin-top: -100px;
+     background-color: white;
  }
  .p2{
     margin-top: -100px;
