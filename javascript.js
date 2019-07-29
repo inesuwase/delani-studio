@@ -47,4 +47,12 @@ $(".p1").hide();
        $(this).stop().animate({opacity:2},500);
        $(".p1").fadeOut();
    });
+   $(".p2").hide();
+   $(".pic2").hover(function(){
+       $(this).stop().animate({opacity:.2},200);
+       $(".p2").fadeIn();
+   },function(){
+       $(this).stop().animate({opacity:2},500);
+       $(".p2").fadeOut();
+   });
 });
