@@ -1,17 +1,29 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Delani Studios</title>
-    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <link href="css/styles.css" rel="stylesheet">
-  </head>
+    <script src="javascript.js"></script>
+</head>
+
 <body>
     <div class="container">
-        <div class="first">
+        <!-- <div class="first card">
             <div class="row">
                 <div class="first-text jumbotron">
                     <p><BR><BR><BR></p>
@@ -21,108 +33,149 @@
                     <img src="pics/mouse_click.png">
                 </div>
             </div>
+        </div> -->
+        <div class="card">
+            <img src="pics/h_img.jpg" alt="" class="img-fluid">
+            <div class="card-img-overlay card-body text-center text-white" id="top">
+                <img src="pics/logo.png" alt="" class="img-fluid">
+                <h1 class="card-title">WELCOME</h1>
+                <h1 class="card-title">TO DELANI STUDIOS</h1>
+                <p class="card-text">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+                <img src="pics/mouse_click.png">
+            </div>
+
         </div>
-      <div class="second">
-          <div class="row">
-              <div class="second-text">
-                  <p><strong>ABOUT US</strong></p><BR>
-                  <p>When you work with us, you are part of a team of committed collaborators.<br>All aspects of our software development process are integrated, iterative and agile.</p><p>Our approach unifies design, development and<br> project management to create exceptional products. <br>We start each project by understanding our business goals, <br>the user's needs and the products requirements.<br>Then we help translate them into effective and elegant solutions</p>
-              </div>
-          </div>
-      </div>
-      <div class="third">
-       <br><br><br>
-       <div class="third-text">
-        <p><strong>SERVICES</strong></p>
-        <p>Before We sign a contract or write a line of code, our team will spend the necessary <br> time needed to understand our product vision.<br>The outcome of this scoping session is a proposal or high-level statement of work.<br>Based on your requirements, we can provide a complete offering or just the pieces<br>you need.  </p>
-       </div>
-        <div class="fourth">
-            <div class="container">
-                <div class="fourth-text">
-                    <h1>WHAT WE DO</h1>
+        <div class="second">
+            <!-- <div class="row"> -->
+                <div class="second-text">
+                    <p><strong>ABOUT US</strong></p>
+                    <p id="sec">When you work with us, you are part of a team of committed collaborators.All aspects of our
+                        software development process are integrated, iterative <br>and agile.</p>
+                    <p>Our approach unifies design, development and project management to create exceptional
+                        products.</p>
+                    <p>We start each project by understanding our business goals,the user's needs
+                        and the products requirements.</p>
+                    <p>Then we help translate them into effective and elegant
+                        solutions</p>
                 </div>
-                <!-- <div class="container"> -->
+            <!-- </div> -->
+        </div>
+        <div class="third">
+            <br><br><br>
+            <div class="third-text">
+                <p><strong>SERVICES</strong></p>
+                <p>Before We sign a contract or write a line of code, our team will spend the necessary <br> time needed
+                    to understand our product vision.<br>The outcome of this scoping session is a proposal or high-level
+                    statement of work.<br>Based on your requirements, we can provide a complete offering or just the
+                    pieces<br>you need. </p>
+            </div>
+        </div>
+            <div class="fourth">
+                <div class="container">
+                    <div class="fourth-text">
+                        <h1><strong>WHAT WE DO</strong></h1>
+                    </div>
+                    <!-- <div class="container"> -->
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/design_icon.png">
-                            <p>DESIGN</p>
+                            <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/design_icon.png"
+                                id="design">
+                            <p class="card-text">DESIGN</p>
+                            <p id="design-text">Our design practice offers a full range of services including brand
+                                strategy, interaction and visual design and user experience testing.
+                                Throughout your project, our designers create and implement visual design and workflows,
+                                solicit user feedback and work with you to make sure what gets built is what is needed.
+                            </p>
                         </div>
                         <div class="col-md-4">
-                            <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/dev_icon.png">
+                            <img
+                                src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/dev_icon.png">
                             <p>DEVELOPMENT</p>
-                        </div> 
+                        </div>
                         <div class="col-md-4">
-                            <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/product_icon.png">
+                            <img
+                                src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/product_icon.png">
                             <p>PRODUCT MANAGMENT</p>
                         </div>
                     </div>
-                <!-- </div> -->
-       <div class="fifth">
-            <div class="container">  
-                <p><strong>PORTFOLIO</strong></p>
-                 <div class="row">
-                     <div class="col-md-3">
-                         <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work1.jpg" class="img-fluid">
-                     </div>
-                     <div class="col-md-3">
-                         <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work2.jpg" class="img-fluid">
-                     </div>   
-                     <div class="col-md-3"> 
-                        <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work3.jpg" class="img-fluid">
-                     </div>
-                     <div class="col-md-3">
-                        <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work4.jpg" class="img-fluid">
-                     </div>
-                 </div>
-                 <div class="row">
-                     <div class="col-md-3"> 
-                        <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work5.jpg" class="img-fluid">
-                     </div>
-                     <div class="col-md-3">   
-                        <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work6.jpg" class="img-fluid">
-                     </div>
-                     <div class="col-md-3">   
-                         <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work7.jpg" class="img-fluid">
-                     </div>
-                     <div class="col-md-3">   
-                         <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work8.jpg" class="img-fluid">
-                     </div>
-                 </div> 
-             </div>
-      </div>     
-       <div class="sixth">
-            <form>
-             <div style="text-align:center">
-                 <h2>Contact Us</h2>
-             </div>
-             <div class="input">
-                <input type="text" id="name" placeholder="Name.." size="30%">
-                <input type="text" id="Email" placeholder="Email.." size="30%">
-             </div>
-             <div class="message">
-                <textarea id="message"  placeholder="Your message here.."></textarea>
-             </div>
-             <div class="submit">
-                <input type="submit" value="Submit">
-             </div>
-            </form>
-       </div>
-        <div class="seventh">
-         <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/twitter.png">
-         <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/dribble.png">
-         <img src="/home/user/Documents/moringa-school-projects/Delani-studio/pics/facebook.png">
-         <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/g_plus.png">
-         <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/skype.png">
-         <img src="/moringa-school-projects/Delani-studio/pics/stumble_upon.png">
-         <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/behance.png">
-         <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/pinterest.png"><img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/flickr.png">
-         <p>DELANI STUDIO<br>2019</br></p>
-        </div>
-    </div>
+                </div>
+            </div>
+                <div class="fifth">
+                    <div class="container">
+                        <p><strong>PORTFOLIO</strong></p>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work1.jpg"
+                                    class="img-fluid">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work2.jpg"
+                                    class="img-fluid">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work3.jpg"
+                                    class="img-fluid">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work4.jpg"
+                                    class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:50px;">
+                            <div class="col-md-3">
+                                <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work5.jpg"
+                                    class="img-fluid">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work6.jpg"
+                                    class="img-fluid">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work7.jpg"
+                                    class="img-fluid">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="file:///home/user/Downloads/IP3-master/assets/portfolio/work8.jpg"
+                                    class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             
+                <div class="sixth" style="margin-top: 50px;">
+                    
+                        <div style="text-align:center">
+                            <h2>CONTACT US</h2>
+                        </div>
+                        <form>
+                       <div class="column">
+                            <!-- <form action="/action_page.php"></form> -->
+                            <input type="text" id="name" placeholder="Name..">
+                            <input type="text" id="Email" placeholder="Email..">
+                            <textarea id="message" placeholder="Your message here.."></textarea>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+         
+                <div class="seventh">
+                    <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/twitter.png">
+                    <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/dribble.png">
+                    <img src="/home/user/Documents/moringa-school-projects/Delani-studio/pics/facebook.png">
+                    <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/g_plus.png">
+                    <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/skype.png">
+                    <img src="/moringa-school-projects/Delani-studio/pics/stumble_upon.png">
+                    <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/behance.png">
+                    <img src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/pinterest.png"><img
+                        src="file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/flickr.png">
+                    <p>DELANI STUDIO<br>2019</br></p>
+                </div>
+            </div>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <!-- <script src="js/bootstrap.min.js"></script> -->
 </body>
+
 </html>

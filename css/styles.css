@@ -1,14 +1,21 @@
+ #top{
+    padding: 300px 50px 50px 100px;
+} 
+#sec{
+    margin: 5px;
+}
 
-.container{
+/* .container{
 	margin: inherit;
     width: inherit;
-}
-body{
+} */
+/* body{
   margin: 0;
 	padding: 0;
     height: auto;
     background-color: whitesmoke;
-    }
+} */
+    /* 
 .first-text{
     background: transparent;
     background-size: 100% 100%;
@@ -29,12 +36,12 @@ body{
     margin-right: auto;
     float: none;
     margin-top: 100px;
-}
+} */
 .second{
-    background-color: whitesmoke;
-    height: 300px;
+    /* background-color: whitesmoke; */
+    /* height: 300px; */
     text-align: center;
-    margin-left: 15%;
+    /* margin-left: 15%; */
 }
 input[type=submit] {
     color: white;
@@ -42,14 +49,14 @@ input[type=submit] {
     border: none;
     cursor: pointer;
   }
-.second text{
+/* .second text{
     color: black;
     background: transparent;
     font-size-adjust: auto; 
     text-align: center; 
     margin-right: 150px;
     margin-left: 80px;
-}
+} */
 .third{
     height: 300px;
 	background: url("file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/s_image.jpg");
@@ -63,39 +70,40 @@ input[type=submit] {
 }
 .fourth-text{
     text-align: center;
-    color: white;
+    /* color: white; */
     font-weight: 200;
 }
 .fourth{
-    background: whitesmoke;
+    /* background: whitesmoke; */
     height:auto;
     text-align: center;
-}
-.row{
-    display: flex;
 }
 .fifth{
     text-align: center;
 }
-.work{
+/* .work{
     text-align: center;
 }
 .work1{
     text-align: center;
-}
+} */
 .sixth{
     background-image: url("file:///home/user/Documents/moringa-school-projects/Delani-studio/pics/c_image.jpg");
     background-repeat: no-repeat;
-    padding-top: 35px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-.input{
-    text-align: center;
-}
-.message{
+    /* padding-top: 35px;
+    padding-bottom: 40px; */
     text-align: center;
 }
 .seventh{
     text-align: center;
+    margin-top: 50px;
 }
+
+
+#DESIGN{
+    text-align: center;
+}
+#design-text{
+    display: none;
+}
+margin-top: -100px;
