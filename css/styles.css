@@ -108,9 +108,9 @@ input[type=submit] {
 #design-text{
     display: none;
 }
-/* #dev{
+#dev{
     display: none;
-} */
+}
 .management{
     display: none;
 }
